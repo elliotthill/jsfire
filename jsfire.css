@@ -1,0 +1,95 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-bracket		{ color: #a3401f; }
+span.cm-builtin     { color: #a3401f; }
+span.cm-qualifier	{ color: #a3401f; }
+span.cm-tag			{ color: #a3401f; }
+
+span.cm-def			{ color: #34383b; }
+span.cm-header      { color: #34383b; }
+span.cm-keyword		{ color: #038d86; }
+span.cm-operator	{ color: #34383b; }
+
+span.cm-meta		{ color: #34383b; }
+span.cm-property	{ color: #34383b; }
+
+span.cm-atom		{ color: #df6c5f; }
+span.cm-attribute	{ color: #df6c5f; }
+span.cm-number		{ color: #df6c5f; }
+
+span.cm-variable	{ color: #df6c5f; }
+span.cm-variable-2	{ color: #df6c5f; }
+span.cm-variable-3	{ color: #df6c5f; }
+
+span.cm-link		{ color: #0987bb; }
+span.cm-string		{ color: #0987bb; }
+span.cm-string-2    { color: #0987bb; }
+
+span.cm-comment		{ color: #9699a0; }
+span.cm-error		{ color: #ff0076; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.4;
+}
+
+.CodeMirror-scroll {
+	background: #fff;
+	color: #4d4d4d;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #222 !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #222 !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #fff;
+	border-right: 0;
+}
+
+.CodeMirror-linenumber {
+	color: #aeb3be;
+}
+
+.CodeMirror-selected {
+	background: #ffddc4 !important;
+}
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+	border-bottom: 2px solid #ff8000 !important;
+    color: #656569 !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+	border-bottom: 2px solid #ff8000 !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ff0076 !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #edf4f7 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #c27156;
+	background-color: #efe9e3 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	color: #656569;
+}

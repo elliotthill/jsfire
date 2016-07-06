@@ -1,0 +1,20 @@
+{
+    "title": "jsfire",
+    "name": "jsfire",
+    "description": "JSFire Theme for Brackets by Elliott Hill.",
+    "version": "1.0.2",
+    "author": "elliotthill (https://github.com/elliotthill/)",
+    "homepage": "https://github.com/elliotthill/jsfire/",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:elliotthill/jsfire.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "jsfire.css",
+        "dark": false
+    }
+}
